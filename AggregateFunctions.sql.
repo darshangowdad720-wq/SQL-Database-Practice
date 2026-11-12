@@ -1,0 +1,20 @@
+
+-- Count total students
+SELECT COUNT(*) AS TotalStudents
+FROM Students;
+
+-- Find average marks
+SELECT AVG(Marks) AS AverageMarks
+FROM Students;
+
+-- Find highest marks
+SELECT MAX(Marks) AS HighestMarks
+FROM Students;
+
+-- Find lowest marks
+SELECT MIN(Marks) AS LowestMarks
+FROM Students;
+
+-- Find total marks
+SELECT SUM(Marks) AS TotalMarks
+FROM Students;
